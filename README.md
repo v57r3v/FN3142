@@ -1,36 +1,48 @@
 java c
-FN3142
-QUANTITATIVE FINANCE
-PRELIMINARY EXAM 2018
-Question 1
-a) When do we say that one forecast \encompasses" another? 30 marks
-b) Describe a test for forecast encompassing. 40 marks
-c) What null hypotheses would you test to analyse forecast encompassing when there are 3 competing forecasts rather than 2? 30 marks
-Question 2
-a) Describe using an example what is collective data snooping. 25 marks
-b) Describe using an example what is individual data snooping. 25 marks
-c) Discuss the differences between collective data snooping and individual data snooping. 25 marks
-d) Give two counterexamples to the claim that prices should follow a random walk in an efficient market. 25 marks
-Question 3
-For VaR calculations at 5% critical level consider using a historical simulation method and a GARCH method for forecasting volatility. After building the so called hit variables
+FN3142 
+QUANTITAIVE FINANCE 
+PRELIMINARY EXAM 2019
+Question 1 
+Consider a forecast  of a variable, Yt. You   have   100   observations   of  and Yt and
+you   run the following   regression:
 
-the following regressions are run, where the numbers in paren代 写FN3142 QUANTITATIVE FINANCE PRELIMINARY EXAM 2018
-代做程序编程语言theses are standard errors for the parameter estimates:
+The following   results are obtained:
 
-a) Describe how the above regression output can be used to test the accuracy of the VaR forecasts from these two models. 30 marks
-b) Based on the above tests what conclusions can you draw. 20 marks
-c) Define the violation ratio related to unconditional coverage tests for VaR forecasts. 20 marks
-d) If the population violation ratio is defined as VR0 ≡ E[VR], show that testing VR0 = 1 is exactly equivalent to testing E[Hitt] = α. 30 marks
-Question 4
-a) Define “white noise”. 20 marks
-b) What is iid white noise? 20 marks
-c) What additional conditions do you need to add such that a white noise Gaussian? 20 marks
-d) If {Yt}t≥0 is an AR(1) process, calculate the unconditional variance of Yt. 20 marks
-e) For the AR(1) process from part (d) calculate the R2 measure and give an interpretation of the result. 20 marks
+Estimate 
+std error 
+t-statistic 
+β0 
+-0.085 
+0.0052 
+-16.34 
+β1 
+2.6135 
+2.0398 
+1.28 
+a)         What,   if anything, can we   infer from this   output? 60 marks 
+b)       The   picture   in   the   Figure   1   is   based   on   daily   returns   on   General   Electric   over   the   period   1990-1999. What does this picture    reveal about the conditional variance of General   Electric   returns? What volatility   model do you suggest for   this   asset? 40 marks 
 
+Figure 1: Figure for question 1b 
+x-axis represents return on day t; y-axis represents the squared return on day t+1.
+Question 2 
+a)       Define the   Efficient   Market   Hypothesis   (EMH) and   distinguish   between   its   weak-   form, semi-strong and   strong form. 15 marks 
+b)       Discuss Fisher Black's interpretation   of the   EMH and explain why   it   maybe difficult to test empirically. 10 marks 
+c)       What is   the role of   forecasting models    and   search   technologies   in   refining   the   information   set?   Define   market   efficiency   according   to   Granger   and Timmerman   (2003) 25 marks 
+d)       After   extensive   empirical    research,   someone   finds   evidence   of   predictability   in   stock   returns that   cannot   be   possibly explained   as   compensation for   risk   bearing.   Is   it   necessarily a violation   of the   EMH? 25 marks 
+e)       Briefly state the random walk model for asset   prices and discuss whether the   EMH 代 写FN3142 QUANTITAIVE FINANCE PRELIMINARY EXAM 2019Statistics
+代做程序编程语言  implies the   random walk   model. 25 marks 
+Question 3 
+Consider   using a   historical simulation   method   (HS) and a   GARCH   method for   forecasting   volatility. After   building the so called   hit variables:
 
-
-
+the following   regressions are   run, with standard errors   in   parenthesis corresponding   to   the   parameter estimates:
+Hitt(H)s      =   0.0814   +    μt                                                         (0.0132)
+Hitt(GA)RCH      =   0.0207   +    μt                            (0.0123)
+a)       Describe how the   above   regression   output   can   be   used to test   the   accuracy   of the   VaR   forecasts   from   these   two   models   and   decide   whether   the   VaR   forecasts   are   accurate or   not? 40 marks 
+b)          Describe how you can determine the best convex combination of the    two   forecasts   in the sense of   mean squared   error   minimisation. 60 marks 
+Question 4 
+a)       Show   that   a   stationary   GARCH(1,1)   model   can   be   re-written   as   a   function   of   the   unconditional variance   and the   deviations   of the   lagged   conditional variance   and   lagged squared   residual from the   unconditional variance 20 marks 
+b)       Derive   the   two-step   ahead   predicted   variance   for   a   GARCH(1,1)   as   a   function   of   the   parameters of the   model and the one-step forecast. 40 marks 
+c)         Derive   the   three-step   ahead   predicted   variance   for   a   GARCH(1,1)   and   infer   the   general   expression   for   a   h-step   ahead   forecast.   Give   an   example   of   a   financial   application that   may   require   using a   h-step ahead forecast? 40 marks 
 
 
 
